@@ -1,0 +1,19 @@
+.caracteres{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.principios{
+    padding: 40px 20px;
+    background-color: #E8E8E8;
+    margin-top: 150px;
+    border-radius: 4px;
+}
+
+.principios p{
+    margin-top: 20px;
+}

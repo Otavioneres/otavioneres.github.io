@@ -1,0 +1,36 @@
+footer{
+  background-color: #5E4795;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+.formacao{
+  display: flex;
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  
+  
+}
+.formacao li{
+  background-color: aliceblue;
+  border-radius: 4px;
+  align-items: flex-start;
+  flex: 1;
+  padding: 40px 20px;
+  
+}
+ 
+
+
+h2{
+  font-size: 8rem;
+  line-height: 1;
+  text-transform: uppercase;
+  word-break: break-all;
+  max-width: 4ch;
+}

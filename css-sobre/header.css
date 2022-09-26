@@ -1,0 +1,28 @@
+header{
+  background-color: #C8B3F9;
+  width: 100%;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.header-menu{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.header-menu a{
+  border-bottom: 2px solid #C8B3F9;
+  color: #060210;
+}
+.header-menu a:hover{
+  border-bottom: 2px solid #110726;
+}
+

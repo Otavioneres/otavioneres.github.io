@@ -1,0 +1,15 @@
+.icon{
+  display: flex;
+  max-width: 1200px;
+  /* padding: 40px 20px; */
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 100px;
+
+}
+.icon-icon{
+  display: grid;
+  justify-items: center;
+  padding: 40px 20px;
+  
+}

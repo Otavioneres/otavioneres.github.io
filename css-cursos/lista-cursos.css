@@ -1,0 +1,10 @@
+.lista-cursos{
+    display: grid;
+    max-width: 1200px;
+    grid-template-columns: 1fr 1fr;
+}
+span{
+    padding: 150px 100px;
+    background: #121212;
+    display: block;
+}
