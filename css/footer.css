@@ -34,3 +34,22 @@ h2{
   word-break: break-all;
   max-width: 4ch;
 }
+
+@media (max-width:600px){
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .formacao{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-top: 20px;
+  }
+  .footer h2{
+    font-size: 70px;
+    word-break: none;
+    text-align: center;
+    max-width: none;
+  }
+}
