@@ -1,8 +1,31 @@
 .lista-cursos{
     display: grid;
     max-width: 1200px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin: 0px auto;
+    gap: 40px 20px;
 }
+.curso{
+    background-color: #C8B3F9;
+    display: grid;
+    justify-items: center;
+    padding: 20px 20px;
+    border-radius: 4px;
+    
+}
+.curso a{
+    background-color: #8067bb;
+    border-radius: 4px;
+    justify-content: center;
+    margin-top: 20px;
+    
+    
+}
+.curso p{
+    text-align: center;
+    margin-top: 20px;
+}
+
 span{
     padding: 150px 100px;
     background: #121212;
