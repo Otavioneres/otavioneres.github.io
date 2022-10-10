@@ -2,4 +2,11 @@
   display: grid;  
   grid-template-columns: 1fr auto;
   align-items: center;
+  background-color: #DBCCFF;
+}
+.lista-aulas:nth-child(2){
+  background-color: #B7A0EB;
+}
+.lista-aulas:hover{
+  background-color: #C8B3F9;
 }
