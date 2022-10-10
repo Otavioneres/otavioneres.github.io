@@ -71,4 +71,7 @@ header{
         display: flex;
         flex-direction: column;
     }
+    .header-menu a::after{
+        display: none;
+    }
 }
